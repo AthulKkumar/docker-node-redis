@@ -18,5 +18,8 @@ services:
     volumes:
       - mongoData:/data/db
 
+  redis:
+    image: redis
+
 volumes:
   mongoData:

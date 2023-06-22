@@ -14,6 +14,7 @@ services:
       - PORT=5000
       - MONGO_USER=root
       - MONGO_PASSWORD=root
+      - SESSION_SECRET=secret
     command: npm run dev
 
   mongo:
