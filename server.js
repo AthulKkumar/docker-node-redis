@@ -37,6 +37,7 @@ mongoose
     console.log("Not Connected to Database ERROR! ", err);
   });
 
+app.enable("trust proxy");
 app.use(express.json());
 app.use(
   session({
